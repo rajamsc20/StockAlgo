@@ -1,0 +1,101 @@
+# Environment variables & Secrets (CRITICAL!)
+.env
+.env.local
+.env.*.local
+.encryption_key           # NEVER COMMIT - Decrypts all credentials!
+.env.encrypted.backup     # Backup of encrypted credentials
+api_keys.txt              # API keys file
+secrets.json              # Secrets configuration
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Data
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.json
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE config
+.vscode/settings.json
+.idea/inspectionProfiles/
+
+# Sensitive data
+*.key
+*.pem
+*.txt (if contains credentials)
+.secrets/
+
+# Testing
+.coverage
+.pytest_cache/
+coverage_html_report/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.eggs/

@@ -1,0 +1,9 @@
+api key: h27gjr6oiaiglgrv
+API secret: x4095o51ql2xi45psh69u3qhn7nnk3x1
+kite url: https://kite.zerodha.com/dashboard
+username: PBS764
+password: Shine@1921
+
+ticker_tape url: https://www.tickertape.in/
+username: 9985483838
+password: Shine@1921
